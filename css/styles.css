@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 
+.jumbotron {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    font-family: 'Ranchers', sans-serif;
+}
+
 .parallax {
-    /* The image used */
     background-image: url("/images/websitebg.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
+    min-height: 700px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
