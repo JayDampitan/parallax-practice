@@ -20,3 +20,16 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+.footer-container {
+    width: 100%;
+    height: 8vh;
+    background-color: darkgrey;
+  }
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 30px;
+  }
