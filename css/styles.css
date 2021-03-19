@@ -1,1 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.jumbotron {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    font-family: 'Ranchers', sans-serif;
+}
+
+.parallax {
+    background-image: url("/images/websitebg.jpg");
+    min-height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.footer-container {
+    width: 100%;
+    height: 8vh;
+    background-color: darkgrey;
+  }
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 30px;
+  }
