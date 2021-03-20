@@ -13,10 +13,10 @@ nav {
 }
 
 .parallax {
-    background-image: url("/images/websitebg.jpg");
+    /* background-image: url("/images/websitebg.jpg"); */
     min-height: 700px; 
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -33,3 +33,13 @@ footer ul {
     list-style: none;
     padding-top: 30px;
   }
+
+.row1 {
+  background-image: url(../images/portfolio9.jpg);
+  min-height: 700px; 
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
