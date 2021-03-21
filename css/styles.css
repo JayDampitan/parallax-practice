@@ -35,12 +35,12 @@ footer ul {
   }
 
 .row1 {
+  display: flex;
   justify-content: center;
   background-image: url(../images/portfolio8.jpg);
   min-height: 700px; 
   background-position: center center;
-  width: 1500px
-  
+  width: 1500px;
 }
 
 .row2 {
@@ -48,7 +48,7 @@ footer ul {
   background-image: url(../images/portfolio7.jpg);
   min-height: 700px; 
   background-position: center center;
-  width: 1500px
+  width: 1500px;
 }
 
 .row3 {
@@ -56,12 +56,15 @@ footer ul {
   background-image: url(../images/portfolio6.jpg);
   min-height: 700px; 
   background-position: center center;
-  width: 1500px
+  width: 1500px;
 }
 
 .parallax-container {
   margin: 10px;
 }
 
+button {
+  width: 100px;
+}
 
 
