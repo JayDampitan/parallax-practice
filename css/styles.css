@@ -13,7 +13,7 @@ nav {
 }
 
 .parallax {
-    /* background-image: url("/images/websitebg.jpg"); */
+    background-image: url("/images/background1.jpeg");
     min-height: 700px; 
     background-attachment: fixed;
     background-position: center center;
@@ -78,6 +78,20 @@ footer ul {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
+
+#parallaxfour {
+  background-image: url('../images/portfolio5.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 650px;
+  background-attachment: fixed;
+}
+#parallaxfour section {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
 button.btn {
     font-size: 0.8rem;
 } 
