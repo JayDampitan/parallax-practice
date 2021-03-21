@@ -13,7 +13,7 @@ nav {
 }
 
 .parallax {
-    /* background-image: url("/images/websitebg.jpg"); */
+    background-image: url("/images/background1.jpeg");
     min-height: 700px; 
     background-attachment: fixed;
     background-position: center center;
@@ -21,20 +21,14 @@ nav {
     background-size: cover;
   }
 
-.footer-container {
-    width: 100%;
-    height: 8vh;
-    background-color: darkgrey;
-  }
-
-footer ul {
+  .parallax h1 {
     display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    padding-top: 30px;
+    justify-content: center;
+    padding-top: 15%;
   }
 
-/* copied section */
+
+/* Parllax new section */
 
 .container-fluid {
   margin: 20px;
@@ -78,6 +72,20 @@ footer ul {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
+
+#parallaxfour {
+  background-image: url('../images/portfolio5.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 650px;
+  background-attachment: fixed;
+}
+#parallaxfour section {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
 button.btn {
     font-size: 0.8rem;
 } 
@@ -95,6 +103,18 @@ section {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.footer-container {
+  width: 100%;
+  height: 8vh;
+  background-color: darkgrey;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-top: 30px;
+}
 
 
 
