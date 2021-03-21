@@ -34,37 +34,68 @@ footer ul {
     padding-top: 30px;
   }
 
-.row1 {
-  display: flex;
-  justify-content: center;
-  background-image: url(../images/portfolio8.jpg);
-  min-height: 700px; 
+/* copied section */
+
+.container-fluid {
+  margin: 20px;
+}
+
+#parallaxOne {
+    background-image: url('../images/portfolio8.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 650px;
+    background-attachment: fixed;
+}
+#parallaxOne section {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+#parallaxtwo {
+  background-image: url('../images/portfolio9.jpg');
+  background-repeat: no-repeat;
   background-position: center center;
-  width: 1500px;
+  background-size: cover;
+  height: 650px;
+  background-attachment: fixed;
+}
+#parallaxtwo section {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
 }
 
-.row2 {
-  justify-content: center;
-  background-image: url(../images/portfolio7.jpg);
-  min-height: 700px; 
+#parallaxthree {
+  background-image: url('../images/portfolio7.jpg');
+  background-repeat: no-repeat;
   background-position: center center;
-  width: 1500px;
+  background-size: cover;
+  height: 650px;
+  background-attachment: fixed;
+}
+#parallaxthree section {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+button.btn {
+    font-size: 0.8rem;
+} 
+
+img {
+    height: 650px;
 }
 
-.row3 {
-  justify-content: center;
-  background-image: url(../images/portfolio6.jpg);
-  min-height: 700px; 
-  background-position: center center;
-  width: 1500px;
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.parallax-container {
-  margin: 10px;
-}
 
-button {
-  width: 100px;
-}
+
 
 
